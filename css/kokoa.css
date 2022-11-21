@@ -1,0 +1,106 @@
+@import "reset.css";
+@import "status-bar.css";
+@import "nav-bar.css";
+
+
+*{
+    box-sizing: border;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(252, 190, 96);
+}
+.body-container{
+    background-color:white;
+    width: 350px;
+    height: 600px;
+    padding: 10px 20px 20px 20px;
+}
+
+.status-bar{
+    display: flex;
+    justify-content: center;
+}
+
+.status-bar__item{
+    width: 33%;
+}
+
+.status-bar__item:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.status-bar__item:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.status-bar__item .fa-battery-full{
+    margin: 0 4px;
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 70px 10px;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input{
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding: 16px 0;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.login-form input::placeholder{
+    color: rgba(0,0,0,0.4);
+}
+
+input:focus{
+    outline: none;
+}
+
+.login-form input:not([type="submit"]){
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    transition: border-color 0.3s ease-in-out;
+}
+
+.login-form input:focus{
+    border-color: rgb(250, 217, 4);
+}
+
+.login-form input[type="submit"]{
+    background-color: rgb(250, 217, 4);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+
+.login-form a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 12px;
+}
