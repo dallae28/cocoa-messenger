@@ -9,34 +9,34 @@
     <title>Welcome to CoCoa Messenger</title>
 </head>
 <body>
-    <div class="body-container">
-        <div class="status-bar">
-            <div class="status-bar__item">
-                <span>No service</span>
-                <i class="fas fa-wifi"></i>
-            </div>
-            <div class="status-bar__item">
-                <span>22:22</span>
-            </div>
-            <div class="status-bar__item">
-                <span>200%</span>
-                <i class="fas fa-battery-full"></i>
-                <i class="fas fa-bolt"></i>
-            </div>
+    <div class="status-bar">
+        <div class="status-bar__item">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
         </div>
-        <header class="welcome-header">
-            <h1 class="welcome-header__title">Welcome to CoCoa Talk</h1>
-            <p class="welcome-header__content">It you have a CoCoa Account, log in with your email or phone number.</p>
-        </header>
-    
-        <form class="login-form" action="">
-            <input type="text" placeholder="Email or phone number">
+        <div class="status-bar__item">
+            <span>22:22</span>
+        </div>
+        <div class="status-bar__item">
+            <span>200%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to CoCoa Talk</h1>
+        <p class="welcome-header__content">It you have a CoCoa Account, log in with your email or phone number.</p>
+    </header>
+    <form class="login-form" action="" method="">
+        <fieldset>
+            <legend class="legend">회원 로그인 폼</legend>
+            <input type="text" id="userID" placeholder="Email or phone number">
             <input type="password" placeholder="Password">
             <input type="submit" value="Log In">
             <input type="submit" value ="Sign Up">
             <a href="#">Find CoCoa Account or Password</a>
-        </form>
-    </div>
+        </fieldset>
+    </form>
 </body>
 
 </html>
