@@ -4,7 +4,8 @@
   --light-green:  rgb(209, 250, 4);
   --navy:  rgb(0, 0, 74);
   --black: #000;
-
+  
+  --border-color: rgb(114, 113, 113,0.3);
   --primary-color: var(--white);
   --sub-color: var(--light-green);
 
@@ -24,5 +25,5 @@
   --text-base: 1rem; /* 16px */
   --text-md: 1.125rem; /* 18px */
   --text-lg: 1.25rem; /* 20px */
-  --text-xl: 1.5rem; /* 24px *
+  --text-xl: 1.5rem; /* 24px */
 }
