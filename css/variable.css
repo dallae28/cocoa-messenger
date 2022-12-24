@@ -4,7 +4,8 @@
   --light-green:  rgb(209, 250, 4);
   --navy:  rgb(0, 0, 74);
   --black: #000;
-  
+  --light-grey: rgb(249, 249, 249);
+
   --border-color: rgb(114, 113, 113,0.3);
   --primary-color: var(--white);
   --sub-color: var(--light-green);

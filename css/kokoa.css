@@ -54,7 +54,7 @@ body{
 }
 
 /* 헤더 */
-header{
+.welcome-header{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -64,13 +64,13 @@ header{
     background: url("img/free-icon-tottenham-hotspur-824738.png") no-repeat 50% 10%/80px ;
 }
 
-header h1{
+.welcome-header h1{
     font-weight: 700;
     font-size: var(--text-xl);
     margin-bottom: 20px;
 }
 
-header .welcome-header__content{
+.welcome-header header p{
     width: 65%;
     opacity: 0.6;
 }
