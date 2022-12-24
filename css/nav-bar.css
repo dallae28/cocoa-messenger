@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* navbar */
 .nav{
     background-color: var(--light-grey);
     position: fixed;
@@ -40,6 +41,7 @@
     right: -10px;
 }
 
+/* friends -헤더 */
 .friends-header{
     display: flex;
     justify-content: space-between;
@@ -54,4 +56,24 @@
 
 .friends-header__icons span{
     padding-left: 16px;
+}
+
+/* 비주얼 */
+.friends-visual__container{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 0 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 74, 0.1);
+    background-color: var(--light-grey);
+}
+
+.friends-visual i{
+    color: rgb(0, 0, 74, 0.4);
+}
+
+/* 메인 */
+.friends-myProfile img{
+    background: url("img/profile.jpg");
 }
