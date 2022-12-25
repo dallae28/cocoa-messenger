@@ -6,7 +6,7 @@
   --black: #000;
   --light-grey: rgb(249, 249, 249);
 
-  --border-color: rgb(114, 113, 113,0.3);
+  --border-color: rgba(114, 113, 113,0.3);
   --primary-color: var(--white);
   --sub-color: var(--light-green);
 

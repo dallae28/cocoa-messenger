@@ -1,0 +1,25 @@
+.friends-main,
+.user-component__container{
+  display: flex;
+  align-items: center;
+
+}
+
+.user-component__avatar{
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.user-component__title{
+  font-size: var(--text-xl);
+  font-weight: 600;
+  display: block;
+}
+
+.user-component__subtitle{
+  display: block;
+  color: rgba(0, 0, 74, 0.5);
+  font-size: var(--text-md);
+}
