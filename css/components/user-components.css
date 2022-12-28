@@ -1,25 +1,118 @@
-.friends-main,
-.user-component__container{
+/* 메인 */
+.friends-main{
+  /* background-color: royalblue; */
   display: flex;
-  align-items: center;
-
+  flex-flow: column nowrap;
+  padding: var(--horizontal-space);
+  
 }
 
-.user-component__avatar{
+/* 메인__유저컴포넌트 */
+.user-component__container{
+  /* background-color: lightpink; */
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.component__avatar--xl{
   width: 70px;
   height: 70px;
   border-radius: 30px;
   margin-right: 20px;
 }
 
-.user-component__title{
+.component__avatar--sm{
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.user-component__text h3{
   font-size: var(--text-xl);
   font-weight: 600;
   display: block;
+}
+
+.user-component__text h4{
+  font-size: var(--text-md);
+  font-weight: 600;
 }
 
 .user-component__subtitle{
   display: block;
   color: rgba(0, 0, 74, 0.5);
   font-size: var(--text-md);
+}
+
+/* 메인__birthday */
+.component__avatar--sm{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.component__avatar--sm .cake{
+  font-size: 30px;
+  color: var(--white);
+}
+
+
+/* 메인__채널 */
+
+.friends-main__channel{
+  /* background-color: hotpink; */
+  position: relative;
+  margin-top: 15px;
+}
+
+.friends-main__channel-header{
+  /* background-color: mediumaquamarine; */
+  padding: 10px 0;
+  border-top: 1px solid rgb(0, 0, 74, 0.1);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.user-component__group-number{
+  /* background-color: bisque; */
+  position: absolute;
+  right: 0;
+  font-size: var(--text-xs);
+}
+
+.component__avatar--sm{
+  background-color: var(--navy);
+  border: 1px solid var(--navy);
+}
+
+/* 메인__myFriends */
+
+.img-container{
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  margin-right: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-container .avatar-son{
+  position: absolute;
+  left: -18px;
+}
+
+.user-component__music{
+  position: absolute;
+  right: 0;
+  border: 5px solid  rgb(174, 255, 0);
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+.user-component__music i{
+  color: rgb(174, 255, 0);
 }

@@ -8,7 +8,7 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 20px 50px;
+    padding: 15px 50px;
     border-top: 1px solid var(--border-color);
 }
 
@@ -41,36 +41,4 @@
     right: -10px;
 }
 
-/* friends -헤더 */
-.friends-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
 
-.friends-header__title{
-    font-weight: 700;
-    font-size: 32px;
-}
-
-.friends-header__icons span{
-    padding-left: 16px;
-}
-
-/* 비주얼 */
-.friends-visual__container{
-    display: block;
-    text-align: center;
-    padding: 10px;
-    margin: 0 20px;
-    border-radius: 10px;
-    border: 1px solid rgb(0, 0, 74, 0.1);
-    background-color: var(--light-grey);
-}
-
-.friends-visual i{
-    color: rgb(0, 0, 74, 0.4);
-}
-
-/* 메인 */
