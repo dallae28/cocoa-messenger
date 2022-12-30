@@ -22,13 +22,6 @@
   margin-right: 20px;
 }
 
-.component__avatar--sm{
-  width: 60px;
-  height: 60px;
-  border-radius: 25px;
-  margin-right: 20px;
-}
-
 .user-component__text h3{
   font-size: var(--text-xl);
   font-weight: 600;
@@ -45,20 +38,6 @@
   color: rgba(0, 0, 74, 0.5);
   font-size: var(--text-md);
 }
-
-/* 메인__birthday */
-.component__avatar--sm{
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.component__avatar--sm .cake{
-  font-size: 30px;
-  color: var(--white);
-}
-
 
 /* 메인__채널 */
 
@@ -84,9 +63,33 @@
   font-size: var(--text-xs);
 }
 
+.img-container{
+  width: 60px;
+  height: 60px;
+  background-color: var(--navy);
+}
+
 .component__avatar--sm{
   background-color: var(--navy);
   border: 1px solid var(--navy);
+  
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 20px;
+  position: absolute;
+  left: 6px;
+  top: 5px;
+}
+
+.component__avatar--sm .cake{
+  font-size: 30px;
+  color: var(--white);
 }
 
 /* 메인__myFriends */
