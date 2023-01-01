@@ -1,0 +1,22 @@
+/* 비주얼 */
+.chats-visual__ads{
+  border: 2px solid var(--sub-color);
+  border-radius: 20px;
+}
+
+.chats-visual__ads .icon{
+  float: left;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  background-color: var(--sub-color);
+  font-size: 12px;
+}
+
+.chats-visual__ads-content{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
