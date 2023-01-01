@@ -1,3 +1,4 @@
+/* 메인 find-icons */
 .find-icons{
   display: flex;
   flex-flow: row nowrap;
@@ -22,12 +23,13 @@
   text-align: center;
 }
 
+/* recommend friend */
 .recommend-friends{
   border-top: 1px solid var(--border-navy);
   border-bottom: 1px solid var(--border-navy);
   margin-top: 25px;
   padding: 20px 0 40px 0;
-  color: var(--border-navy);
+  color: rgba(0, 0, 74, 0.5);
   /* background-color: orchid; */
 }
 
@@ -37,4 +39,13 @@
 
 .recommend-friends__content{
   text-align: center;
+}
+
+/* Open Chat */
+.open-chat__header{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-top: 15px;
+  color: rgba(0, 0, 74, 0.5);
 }
