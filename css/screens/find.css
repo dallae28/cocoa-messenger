@@ -1,0 +1,40 @@
+.find-icons{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+
+.find-icons__item{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 75px;
+  /* background-color: aquamarine; */
+}
+
+.find-icons__item i{
+  font-size: 36px;
+}
+
+.find-icons span{
+  font-size: 14px;
+  text-align: center;
+}
+
+.recommend-friends{
+  border-top: 1px solid var(--border-navy);
+  border-bottom: 1px solid var(--border-navy);
+  margin-top: 25px;
+  padding: 20px 0 40px 0;
+  color: var(--border-navy);
+  /* background-color: orchid; */
+}
+
+.recommend-friends__title{
+  margin-bottom: 30px;
+}
+
+.recommend-friends__content{
+  text-align: center;
+}
