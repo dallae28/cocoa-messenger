@@ -1,124 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/kokoa.css"/>
-    <link rel="stylesheet" href="css/nav-bar.css"/>
-    <script src="https://kit.fontawesome.com/a31b068d84.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/kokoa.css" />
+    <link rel="stylesheet" href="css/nav-bar.css" />
+    <script
+      src="https://kit.fontawesome.com/a31b068d84.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Friends - CoCoa Messenger</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <div class="status-bar">
-        <div class="status-bar__item">
-            <span>No Service</span>
-            <i class="fas fa-wifi"></i>
-        </div>
-        <div class="status-bar__item">
-            <span>22:22</span>
-        </div>
-        <div class="status-bar__item">
-            <span>200%</span>
-            <i class="fas fa-battery-full fa-lg"></i>
-            <i class="fas fa-bolt"></i>
-        </div>
+      <div class="status-bar__item">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__item">
+        <span>22:22</span>
+      </div>
+      <div class="status-bar__item">
+        <span>200%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
     </div>
 
     <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__item"><a href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
-            <li class="nav__item">
-                <a href="#">
-                    <span class="nav__notification">1</span>
-                    <i class="far fa-comment fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__item"><a href="#"><i class="fas fa-search fa-2x"></i></a></li>
-            <li class="nav__item"><a href="#"><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
-        </ul>
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="friends.html"><i class="fas fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__item">
+          <a href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="find.html"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__item">
+          <a href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+        </li>
+      </ul>
     </nav>
 
     <header class="friends-header">
-        <h1 class="friends-header__title">Friends</h1>
-        <div class="friends-header__icons">
-            <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
-        </div>
+      <h1 class="friends-header__title">Friends</h1>
+      <div class="friends-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
     </header>
 
     <section class="friends-visual">
-        <a href="/" class="friends-visual__container">
-            <i class="fas fa-info-circle"></i>
-            <span class="visual__text">Friends' Names Display</span>
-            <i class="fas fa-chevron-right"></i>
-        </a>
+      <a href="/" class="friends-visual__container">
+        <i class="fas fa-info-circle"></i>
+        <span class="visual__text">Friends' Names Display</span>
+        <i class="fas fa-chevron-right"></i>
+      </a>
     </section>
 
-    <main class="friends-main">
-        <div class="user-component__container">
-            <img class="user-component__avatar component__avatar--xl" src="/css/img/profile.jpg" alt="myProfile" />
-            <div class="user-component__text">
-                <h3 class="user-component__title">Bae</h3>
-                <!-- <h6 class="user-component__subtitle">Bae is back</h6> -->
-            </div>
+    <main class="main-screen">
+      <div class="user-component">
+        <img
+          class="user-component__avatar component__avatar--xl"
+          src="/css/img/profile.jpg"
+          alt="myProfile"
+        />
+        <div class="user-component__text">
+          <h3 class="user-component__title">Bae</h3>
+          <!-- <h6 class="user-component__subtitle">Bae is back</h6> -->
         </div>
-        <div class="friends-main__channel birthday">
-            <div class="friends-main__channel-header">
-                <span>Birthday</span>
-                <i class="fas fa-chevron-up fa-xs"></i>
-            </div>
-            <div class="user-component__container">
-                <div class="img-container">
-                    <span class="user-component__avatar component__avatar--sm"><i class="fas fa-birthday-cake cake"></i></span>
-                </div>
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Check Your Friend's Birthday</h4>
-                </div>
-                <div class="user-component__group-number">
-                    <span>4</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
+      </div>
+
+      <div class="friends-main__channel birthday">
+        <div class="friends-main__channel-header">
+          <span>Birthday</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
         </div>
-        <div class="friends-main__channel">
-            <div class="friends-main__channel-header">
-                <span>Channel</span>
-                <i class="fas fa-chevron-up fa-xs"></i>
-            </div>
-            <div class="user-component__container">
-                <div class="img-container">
-                    <img class="user-component__avatar component__avatar--sm" src="/css/img/free-icon-tot-white.png" alt="tottenham hotspur" width="50" height="50"/>
-                </div>
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Channel</h4>
-                </div>
-                <div class="user-component__group-number">
-                    <span>7</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
-            </div>
+
+        <div class="user-component">
+          <div class="img-container">
+            <span class="user-component__avatar component__avatar--sm"
+              ><i class="fas fa-birthday-cake cake"></i
+            ></span>
+          </div>
+          <div class="user-component__text">
+            <h4 class="user-component__title">Check Your Friend's Birthday</h4>
+          </div>
+          <div class="user-component__group-number">
+            <span>4</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
         </div>
-        <div class="friends-main__channel myFriends">
-            <div class="friends-main__channel-header">
-                <span>My Friends (166)</span>
-                <i class="fas fa-chevron-up fa-xs"></i>
-            </div>
-            <div class="user-component__container">
-                <div class="img-container">
-                    <img class="user-component__avatar avatar-son" src="/css/img/SON.jpg" alt="Sonny" width="90" height="60" />
-                </div>
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Son</h4>
-                </div>
-                <div class="user-component__music">
-                    <span>Nice one Sonny - Spurs</span>
-                    <i class="fas fa-play-circle"></i>
-                </div>
-            </div>
+      </div>
+
+      <div class="friends-main__channel">
+        <div class="friends-main__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
         </div>
+
+        <div class="user-component">
+          <div class="img-container">
+            <img
+              class="user-component__avatar component__avatar--sm"
+              src="/css/img/free-icon-tot-white.png"
+              alt="tottenham hotspur"
+              width="50"
+              height="50"
+            />
+          </div>
+          <div class="user-component__text">
+            <h4 class="user-component__title">Channel</h4>
+          </div>
+          <div class="user-component__group-number">
+            <span>7</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="friends-main__channel myFriends">
+        <div class="friends-main__channel-header">
+          <span>My Friends (166)</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        
+        <div class="user-component">
+          <div class="img-container">
+            <img
+              class="user-component__avatar avatar-son"
+              src="/css/img/SON.jpg"
+              alt="Sonny"
+              width="90"
+              height="60"
+            />
+          </div>
+          <div class="user-component__text">
+            <h4 class="user-component__title">Son</h4>
+          </div>
+          <div class="user-component__music">
+            <span>Nice one Sonny - Spurs</span>
+            <i class="fas fa-play-circle"></i>
+          </div>
+        </div>
+        
+      </div>
     </main>
-</body>
+  </body>
 
 </html>

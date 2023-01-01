@@ -6,95 +6,96 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/badge.css";
 
-
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 /* 숨김 콘텐츠 */
-.legend,.a11y-hidden{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip-path: polygon(0 0,0 0,0 0);
+.legend,
+.a11y-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 0 0, 0 0);
 }
 
 /* 본문 스타일 */
-body{
-    font-family: "Open Sans", sans-serif;
-    height: 100vh;
-    color: var(--navy);
-    /* background-color: aquamarine; */
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  color: var(--navy);
+  /* background-color: aquamarine; */
 }
 
 /* 헤더 */
-.welcome-header{
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    text-align: center;
-    padding: 90px 10px;
-    /* background-color: tomato; */
-    background: url("img/free-icon-tottenham-hotspur-824738.png") no-repeat 50% 10%/80px ;
+.welcome-header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+  padding: 90px 10px;
+  /* background-color: tomato; */
+  background: url("img/free-icon-tottenham-hotspur-824738.png") no-repeat 50%
+    10%/80px;
 }
 
-.welcome-header h1{
-    font-weight: 700;
-    font-size: var(--text-xl);
-    margin-bottom: 20px;
+.welcome-header h1 {
+  font-weight: 700;
+  font-size: var(--text-xl);
+  margin-bottom: 20px;
 }
 
-.welcome-header header p{
-    width: 65%;
-    opacity: 0.6;
+.welcome-header header p {
+  width: 65%;
+  opacity: 0.6;
 }
 
-.login-form fieldset{
-    display: flex;
-    flex-direction: column;
-    margin: 0 28px;
+.login-form fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 0 28px;
 }
 
-.login-form input{
-    border: 0;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-    padding: 16px 0;
-    font-size: 16px;
-    margin-bottom: 16px;
+.login-form input {
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 16px 0;
+  font-size: 16px;
+  margin-bottom: 16px;
 }
-.login-form input::placeholder{
-    color: rgba(0,0,0,0.4);
-    padding: 20px 10px;
-    /* background-color: rgb(209, 250, 4); */
-
-}
-
-input:focus{
-    outline: none;
+.login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  padding: 20px 10px;
+  /* background-color: rgb(209, 250, 4); */
 }
 
-.login-form input:not([type="submit"]){
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-    transition: border-color 0.3s ease-in-out;
+input:focus {
+  outline: none;
 }
 
-.login-form input:focus{
-    border-color: var(--navy);
+.login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
 }
 
-.login-form input[type="submit"]{
-    background-color: var(--navy);
-    color: var(--white);
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 20px 0;
+.login-form input:focus {
+  border-color: var(--navy);
+}
+
+.login-form input[type="submit"] {
+  background-color: var(--navy);
+  color: var(--white);
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 20px 0;
 }
 
 .login-form a {
-    text-align: center;
-    text-decoration: none;
-    color: inherit;
-    font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 12px;
 }

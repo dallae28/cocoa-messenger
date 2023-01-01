@@ -1,0 +1,23 @@
+
+.badge {
+  background-color: var(--sub-color);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  line-height: 25px;
+  font-weight: 700;
+  color: var(--white);
+  margin-top: 8px;
+}
+
+.friends-header__icons .header-badge{
+  background-color: var(--sub-color);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: -12px;
+  right: -4px;
+}
