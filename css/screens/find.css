@@ -3,7 +3,9 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  /* background-color: aqua; */
+  /* background-color: var(--grey); */
+  padding: 15px;
+  border-radius: 20px;
 }
 
 .find-icons__item{
@@ -48,4 +50,44 @@
   justify-content: space-between;
   padding-top: 15px;
   color: rgba(0, 0, 74, 0.5);
+}
+
+.open-chat__component{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: rgba(0,0,74);
+  border-radius: 10px;
+  color: var(--white);
+}
+.open-chat__content{
+  padding: 10px 0 0 15px;
+  flex-grow: 1;
+  line-height: 1.6;
+}
+
+.open-chat__content h6{
+  color: rgb(255, 176, 176);
+}
+
+.open-chat__member-state{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.open-chat__member-state span{
+  margin-left: 5px;
+}
+
+.open-chat__member-state .memeber-count{
+}
+
+.open-chat__active{
+  color: var(--sub-color);
+}
+
+.open-chat__img-wrapper img{
+  border-radius: 10px;
 }
