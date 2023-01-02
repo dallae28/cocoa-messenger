@@ -1,5 +1,5 @@
 /* 메인 find-icons */
-.find-icons{
+.icons-list{ 
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -8,19 +8,19 @@
   border-radius: 20px;
 }
 
-.find-icons__item{
+.icons-list__item{
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  width: 75px;
+  width: 50px;
   /* background-color: aquamarine; */
 }
 
-.find-icons__item i{
+.icons-list__item i{
   font-size: 36px;
 }
 
-.find-icons span{
+.icons-list span{
   font-size: 14px;
   text-align: center;
 }
