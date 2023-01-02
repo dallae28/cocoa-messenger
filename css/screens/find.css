@@ -52,12 +52,13 @@
   color: rgba(0, 0, 74, 0.5);
 }
 
+/* Open Chat - 컴포넌트 */
 .open-chat__component{
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   margin-top: 20px;
-  background-color: rgba(0,0,74);
+  background-color: var(--navy);
   border-radius: 10px;
   color: var(--white);
 }
@@ -79,9 +80,7 @@
 
 .open-chat__member-state span{
   margin-left: 5px;
-}
-
-.open-chat__member-state .memeber-count{
+  font-size: 12px;
 }
 
 .open-chat__active{
@@ -91,3 +90,42 @@
 .open-chat__img-wrapper img{
   border-radius: 10px;
 }
+
+/* Open Chat - 검색 폼 */
+.open-chat__search-form{
+  padding: 30px 0 45px 0;
+  /* background-color: aquamarine; */
+}
+
+.search-form__container{
+  text-align: center;
+}
+
+.open-chat__search-form label{
+  position: relative;
+}
+
+.open-chat__search-form input{
+  width: 80vw;
+  height: 40px;
+  border-radius: 20px;
+  border-color: var(--navy);  /* border-top 색상 겹침 현상 때문에 navy로 덮음*/
+  text-indent: 15px;
+}
+
+.open-chat__search-form button{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: transparent;
+  border: none;
+}
+
+.open-chat__search-form button:hover{
+  cursor: pointer;
+}
+
+.open-chat__search-form button i{
+  color: rgba(0, 0, 74, 0.5);
+}
+

@@ -92,7 +92,7 @@
             >Go to Openchat Home <i class="fas fa-chevron-right"></i>
           </span>
         </div>
-        <div class="open-chat__component">
+        <a href="#" class="open-chat__component">
           <div class="open-chat__content">
             <h4>Come On Sonny</h4>
             <h6>#Sonny #Spurs #Korea</h6>
@@ -105,7 +105,20 @@
           <div class="open-chat__img-wrapper">
             <img src="css/img/son2.jpg" alt="sonny" width="100" height="100"/>
           </div>
-        </div>
+        </a>
+
+        <h2 class="a11y-hidden">검색</h2>
+        <form action="" class="open-chat__search-form" method="POST">
+          <fieldset>
+            <legend class="legend">검색 폼</legend>
+            <div class="search-form__container">
+              <label for="search" class="search-label"/>
+              <input type="search" id="search" class="search-form__input" placeholder="# Search now" required />
+              <button type="submit" class="search-button"><i class="fas fa-search fa"></i></button>
+            </div>
+          </fieldset>
+        </form>
+
       </section>
     </main>
 
