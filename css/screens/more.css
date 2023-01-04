@@ -1,9 +1,58 @@
-.main-screen .id-card{
-  position: absolute;
-  right: 0;
+/* 유저컴포넌트 부분 */
+.more-component{
+  /* background-color: lightblue; */
+  padding: var(--horizontal-space);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.more-component__profile{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+/* Pay */
+.wallet{
+  /* margin-top: 10px; */
+  padding: 15px;
+  background-color: var(--sub-color);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wallet__title{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.wallet img{
+  /* background-color: var(--navy); */
+}
+
+.wallet span{
+  font-weight: 600;
+}
+
+.wallet .balance{
+}
+
+/* 아이콘 메뉴 */
+.suggestion-menu{
+  margin-top: 30px;
+  padding: 10px 0;
+  background-color: aquamarine;
 }
 
 .more-icons{
-  margin-top: 30px;
-  /* background-color: yellow; */
+  /* margin-top: 30px; */
+  /* background-color: var(--navy); */
+}
+
+.more-icons i{
+  color: var(--grey);
 }
