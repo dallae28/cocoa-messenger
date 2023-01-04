@@ -18,27 +18,39 @@
   /* margin-top: 10px; */
   padding: 15px;
   background-color: var(--sub-color);
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
+  position: relative;
 }
 
 .wallet__title{
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  padding-bottom: 15px;
 }
 
 .wallet img{
   /* background-color: var(--navy); */
 }
 
-.wallet span{
+.wallet__title span{
   font-weight: 600;
+  font-size: 18px;
 }
 
 .wallet .balance{
+  font-weight: 600;
+  position: absolute;
+  right: 10px;
+}
+
+.wallet__button{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.wallet__history{
+  position: absolute;
+  right: 10px;
 }
 
 /* 아이콘 메뉴 */
