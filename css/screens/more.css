@@ -2,9 +2,7 @@
 .more-component{
   /* background-color: lightblue; */
   padding: var(--horizontal-space);
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  position: relative;
 }
 
 .more-component__profile{
@@ -13,23 +11,29 @@
   align-items: center;
 }
 
+.more-component .id-card{
+  right: 35px;
+  position: absolute;
+}
+
+
 /* Pay */
 .wallet{
   /* margin-top: 10px; */
   padding: 15px;
-  background-color: var(--sub-color);
+  /* background-color: var(--sub-color); */
   position: relative;
 }
 
-.wallet__title{
+.wallet__title-wrapper{
   display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
   padding-bottom: 15px;
 }
 
-.wallet img{
-  /* background-color: var(--navy); */
+.wallet__title{
+  display: flex;  
+  align-items: center;
+  padding-left: 10px;
 }
 
 .wallet__title span{
@@ -40,31 +44,41 @@
 .wallet .balance{
   font-weight: 600;
   position: absolute;
-  right: 10px;
+  right: 15px;
 }
 
 .wallet__button{
   display: flex;
-  flex-flow: row nowrap;
+}
+
+.wallet__button a{
+  border-right: 1px solid var(--border-color);
+  padding: 0 15px;
+}
+
+.wallet__button .last-anchor{
+  border-right: none;
 }
 
 .wallet__history{
   position: absolute;
-  right: 10px;
+  right: 15px;
 }
 
 /* 아이콘 메뉴 */
 .suggestion-menu{
-  margin-top: 30px;
-  padding: 10px 0;
-  background-color: aquamarine;
+  padding: var(--horizontal-space);
+  background-color: var(--navy);
 }
 
 .more-icons{
-  /* margin-top: 30px; */
-  /* background-color: var(--navy); */
+  margin-bottom: 10px;
+  /* background-color: antiquewhite; */
 }
 
 .more-icons i{
-  color: var(--grey);
+  color: var(--white);
+}
+.more-icons span{
+  color: var(--white);
 }
