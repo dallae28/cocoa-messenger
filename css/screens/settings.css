@@ -2,6 +2,8 @@
 .settings-item{
   padding: 20px 0;
   border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
 }
 
 .settings-list__title-wrapper{
@@ -10,7 +12,23 @@
   font-size: 18px;
 }
 
+.settings-list__title-wrapper .badge-new{
+  margin-left: 10px;
+  background-color: var(--sub-color);
+  color: var(--white);
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 18px;
+}
+
 .settings-list__icon-wrapper i{
   font-size: 20px;
   width: 45px;
+}
+
+.settings-list__content{
+  color: var(--light-navy);
 }
