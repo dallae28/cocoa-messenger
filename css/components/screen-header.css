@@ -4,6 +4,8 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
+  background-color: var(--light-grey);
+  top: 24px;
 }
 
 .friends-header__title{
@@ -15,4 +17,10 @@
   padding-left: 16px;
   display: inline-block;
   position: relative;
+}
+
+.fix-on-top{
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }

@@ -13,7 +13,7 @@
   </head>
 
   <body>
-    <div class="status-bar">
+    <div class="status-bar fix-on-top">
       <div class="status-bar__item">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
@@ -48,7 +48,7 @@
       </ul>
     </nav>
 
-    <header class="friends-header">
+    <header class="friends-header fix-on-top">
       <h1 class="friends-header__title">Friends</h1>
       <div class="friends-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
@@ -60,15 +60,15 @@
       </div>
     </header>
 
-    <section class="friends-visual">
-      <a href="/" class="friends-visual__container">
-        <i class="fas fa-info-circle"></i>
-        <span class="visual__text">Friends' Names Display</span>
-        <i class="fas fa-chevron-right"></i>
-      </a>
-    </section>
-
     <main class="main-screen">
+      <section class="friends-visual">
+        <a href="/" class="friends-visual__container">
+          <i class="fas fa-info-circle"></i>
+          <span class="visual__text">Friends' Names Display</span>
+          <i class="fas fa-chevron-right"></i>
+        </a>
+      </section>
+
       <div class="user-component">
         <img
           class="user-component__avatar component__avatar--xl"
@@ -81,7 +81,7 @@
         </div>
       </div>
 
-      <div class="friends-main__channel birthday">
+      <section class="friends-main__channel birthday">
         <div class="friends-main__channel-header">
           <span>Birthday</span>
           <i class="fas fa-chevron-up fa-xs"></i>
@@ -101,9 +101,9 @@
             <i class="fas fa-chevron-right fa-xs"></i>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="friends-main__channel">
+      <section class="friends-main__channel">
         <div class="friends-main__channel-header">
           <span>Channel</span>
           <i class="fas fa-chevron-up fa-xs"></i>
@@ -127,9 +127,9 @@
             <i class="fas fa-chevron-right fa-xs"></i>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="friends-main__channel myFriends">
+      <section class="friends-main__channel myFriends">
         <div class="friends-main__channel-header">
           <span>My Friends (166)</span>
           <i class="fas fa-chevron-up fa-xs"></i>
@@ -154,8 +154,9 @@
           </div>
         </div>
 
-      </div>
+      </section>
     </main>
+
   </body>
 
 </html>

@@ -4,6 +4,8 @@
   justify-content: center;
   padding: 5px;
   font-size: var(--text-sm);
+  background-color: var(--light-grey);
+  top: 0;
 }
 
 .status-bar__item{

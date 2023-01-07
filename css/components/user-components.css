@@ -4,6 +4,7 @@
   display: flex;
   flex-flow: column nowrap;
   padding: var(--horizontal-space);
+  margin: 96px 0 0;
 }
 
 /* 메인__유저컴포넌트 */
@@ -13,6 +14,7 @@
   flex-flow: row nowrap;
   align-items: center;
   position: relative;
+  padding: 10px 0;
 }
 
 .component__avatar--xl {
