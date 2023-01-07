@@ -11,7 +11,6 @@
 .user-component {
   /* background-color: lightpink; */
   display: flex;
-  flex-flow: row nowrap;
   align-items: center;
   position: relative;
   padding: 10px 0;
@@ -123,6 +122,11 @@
 }
 
 /* Chats.html - 메인 유저컴포넌트 */
+
+.user-component__text{
+  /* background-color: mintcream; */
+}
+
 .user-component__alarm{
   /* background-color: lightsalmon; */
   position: absolute;

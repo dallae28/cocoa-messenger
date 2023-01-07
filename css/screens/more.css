@@ -3,6 +3,7 @@
   /* background-color: lightblue; */
   padding: var(--horizontal-space);
   position: relative;
+  margin: 96px 0 0;
 }
 
 .more-component__profile{

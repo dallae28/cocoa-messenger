@@ -12,7 +12,7 @@
     <title>Chats - CoCoa Messenger</title>
   </head>
   <body>
-    <div class="status-bar">
+    <div class="status-bar fix-on-top">
       <div class="status-bar__item">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
@@ -47,7 +47,7 @@
       </ul>
     </nav>
 
-    <header class="friends-header">
+    <header class="friends-header fix-on-top">
       <h1 class="friends-header__title">Chats</h1>
       <div class="friends-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
@@ -59,24 +59,24 @@
         </span>
       </div>
     </header>
-
-    <section class="chats-visual">
-      <a href="/" class="friends-visual__container chats-visual__ads">
-        <span class="icon">ad</span>
-        <div class="chats-visual__ads-content">
-          <div class="img-container">
-            <img src="css/img/spurs-uniform.jfif" alt="" width="70"/>
-          </div>
-          <span class="visual__text">
-            Spurs! 30% off until today.
-            <br/>
-            Don't think, just buy it.
-          </span>
-        </div>
-      </a>
-    </section>
-
+    
     <main class="main-screen">
+      <section class="chats-visual">
+        <a href="/" class="friends-visual__container chats-visual__ads">
+          <span class="icon">ad</span>
+          <div class="chats-visual__ads-content">
+            <div class="img-container">
+              <img src="css/img/spurs-uniform.jfif" alt="Spurs uniform" width="70"/>
+            </div>
+            <span class="visual__text">
+              Spurs! 30% off until today.
+              <br/>
+              Don't think, just buy it.
+            </span>
+          </div>
+        </a>
+      </section>
+
       <a href="chat.html">
         <div class="user-component">
           <div class="img-container">
@@ -102,6 +102,109 @@
           </div>
         </div>
       </a>
+
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="img-container">
+            <img
+              class="user-component__avatar avatar-kane"
+              src="/css/img/Harry-Kane.jfif"
+              alt="Kane"
+              width="60"
+              height="60"
+            />
+          </div>
+
+          <div class="user-component__text">
+            <h3 class="user-component__title">Kane</h3>
+            <h6 class="user-component__subtitle">
+              Nice clean sheet today!!
+            </h6>
+          </div>
+
+          <div class="user-component__alarm">
+            <span class="user-component__time">09:10</span>
+            <div class="badge">2</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="img-container">
+            <img
+              class="user-component__avatar avatar-bentancur"
+              src="/css/img/bentan.png"
+              alt="Sonny"
+              width="60"
+              height="60"
+            />
+          </div>
+
+          <div class="user-component__text">
+            <h3 class="user-component__title">Bentancur</h3>
+            <h6 class="user-component__subtitle">
+              Let's go Champions League!
+            </h6>
+          </div>
+
+          <div class="user-component__alarm">
+            <span class="user-component__time">07:30</span>
+            <div class="badge">4</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="img-container">
+            <img
+              class="user-component__avatar avatar-bentancur"
+              src="/css/img/sevsev.png"
+              alt="Kulusevski"
+              width="55"
+              height="60"
+            />
+          </div>
+          <div class="user-component__text">
+            <h3 class="user-component__title">Kulusevski</h3>
+            <h6 class="user-component__subtitle">
+              I always appreciate Sonny's assist at ManCity
+            </h6>
+          </div>
+
+          <div class="user-component__alarm">
+            <span class="user-component__time">07:21</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="img-container">
+            <img
+              class="user-component__avatar avatar-bentancur"
+              src="/css/img/Richarlison.jpg"
+              alt="Kulusevski"
+              width="65"
+              height="60"
+            />
+          </div>
+          <div class="user-component__text">
+            <h3 class="user-component__title">Richarlison</h3>
+            <h6 class="user-component__subtitle">
+              Give me Puskas.
+            </h6>
+          </div>
+
+          <div class="user-component__alarm">
+            <span class="user-component__time">07:11</span>
+            <div class="badge">9</div>
+          </div>
+        </div>
+      </a>
+
     </main>
 
   </body>
