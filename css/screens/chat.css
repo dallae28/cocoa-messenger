@@ -103,3 +103,9 @@
   font-size: 14px;
   margin-right: 5px;
 }
+
+/* 폼 영역 */
+.reply{
+  position: fixed;
+  bottom: 0;
+}
