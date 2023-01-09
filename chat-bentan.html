@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/a31b068d84.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>chat - Spurs Messenger</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar fix-on-top">
+      <div class="status-bar__item">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__item">
+        <span>22:22</span>
+      </div>
+      <div class="status-bar__item">
+        <span>200%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="friends.html"><i class="far fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__item">
+          <a href="chats.html">
+            <span class="nav__notification badge">23</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="find.html"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__item">
+          <a href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="alt-header fix-on-top">
+      <div class="alt-header__contents-wrapper">
+        <a href="chats.html">
+          <i class="fas fa-chevron-left fa-2x settings-chevron"></i>
+        </a>
+      </div>
+      <div class="alt-header__contents-wrapper">
+        <h1 class="alt-header__title">Bentancur</h1>
+      </div>
+      <div class="alt-header__contents-wrapper">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="chat__timestamp">Friday, January 6, 2023</div>
+
+      <div class="received-message">
+        <div class="img-container">
+          <img
+            class="user-component__avatar avatar-bentancur"
+            src="/css/img/bentan.png"
+            alt="Bentancur"
+            width="60"
+            height="60"
+          />
+        </div>
+        
+        <div class="received-message__contents">
+          <span class="received-message__author">Bentancur</span>
+          <div class="received-message__info">
+            <span class="received-message__text received-first">Seongjae!</span>
+          </div>
+          <div class="received-message__info">
+            <span class="received-message__text">Thank you for your work yesterday</span>
+          </div>
+          <div class="received-message__info">
+            <span class="received-message__text">By the way, no train today?</span>
+          </div>
+          <div class="received-message__info">
+            <span class="received-message__text">Let's go Champions League!</span>
+            <span class="received-message__time">07:30</span>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+  </body>
+</html>
