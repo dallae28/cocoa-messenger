@@ -1,9 +1,12 @@
 /* 유저컴포넌트 부분 */
+.more-main{
+  transform: translateY(96px);
+}
+
 .more-component{
   /* background-color: lightblue; */
   padding: var(--horizontal-space);
   position: relative;
-  margin: 96px 0 0;
 }
 
 .more-component__profile{

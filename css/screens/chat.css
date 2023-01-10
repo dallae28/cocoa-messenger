@@ -1,5 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
 #chat-screen{
   background-color: rgb(32, 48, 94);
+}
+
+.chat-main{
+  background-color: royalblue;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: var(--horizontal-space);
+  transform: translateY(96px);
 }
 
 .chat__timestamp{

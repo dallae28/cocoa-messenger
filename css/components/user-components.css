@@ -4,7 +4,7 @@
   display: flex;
   flex-flow: column nowrap;
   padding: var(--horizontal-space);
-  margin: 96px 0 0;
+  transform: translateY(96px);
 }
 
 /* 메인__유저컴포넌트 */

@@ -6,6 +6,7 @@
   padding: var(--horizontal-space);
   background-color: var(--light-grey);
   top: 24px;
+  
 }
 
 .friends-header__title{
